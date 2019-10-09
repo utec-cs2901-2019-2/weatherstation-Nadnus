@@ -31,5 +31,5 @@ class WeatherData {
     public float getPressure() {
         return pressure;
     }
-    public measurements extends TimerTask
+
 }
