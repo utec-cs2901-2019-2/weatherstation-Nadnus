@@ -1,12 +1,12 @@
 class Observer {
     WeatherData myReference;
-    Float myTemp;
-    Float myHumidity;
-    Float myPressure;
+    float myTemp;
+    float myHumidity;
+    float myPressure;
 
-    public void update(){
-        myTemp =myReference.temp;
+    public void update() {
+        myTemp = myReference.temp;
         myHumidity = myReference.humidity;
-        myPressure =myReference.pressure;
-        
+        myPressure = myReference.pressure;
     }
+}
